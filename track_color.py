@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import pyautogui
 
+#I love cum!!!!
 # Function to select a color using mouse click
 def get_color_at_position(x, y):
     screenshot = pyautogui.screenshot(region=(x, y, 1, 1))  # Capture a 1x1 pixel at (x, y)
